@@ -693,8 +693,8 @@ if __name__ == '__main__':
     clock = pygame.time.Clock()
     running = True
     opened_flag = False
-    tx = pygame.font.Font('C:/NEIRO/data_boom/data/SlackCasual-Bold-Cyr.ttf', 60)
-    tx_s = pygame.font.Font('C:/NEIRO/data_boom/data/SlackCasual-Bold-Cyr.ttf', 45)
+    tx = pygame.font.Font('data/SlackCasual-Bold-Cyr.ttf', 60)
+    tx_s = pygame.font.Font('data/SlackCasual-Bold-Cyr.ttf', 45)
     door = Door(load_image('door.png'), 1, 1, 'bond_door')
     door.update_pos((1219, 576))
     insaif = Inside_saif(load_image('seif_fon.png'), 1, 1)
